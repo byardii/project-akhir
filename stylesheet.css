@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+    /* navbar */
+nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: rgb(red, green, blue);
+}
+
+nav ul  {
+
+    display: flex;
+    list-style: none;
+    /* background-color: black; */
+    width: 50%;
+    justify-content: space-around;
+    padding: 10px 0; 
+}
+
+nav ul li a {
+    color: 282828;
+    text-decoration: none;
+    justify-content: center;
+    width: 40%;
+       
+}
+
+/* responsive breakpoint */
+
